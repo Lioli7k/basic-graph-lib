@@ -1,0 +1,13 @@
+[package]
+name = "basic-graph-lib"
+version = "0.1.0"
+edition = "2021"
+
+[[bin]]
+name = "bgraph-cli"
+path = "src/main.rs"
+
+[dependencies]
+anyhow = "1.0.79"
+clap = { version = "4.5.0", features = ["cargo"] }
+nom = "7.1.3"
